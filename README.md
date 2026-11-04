@@ -29,6 +29,22 @@ availability, account requirements, and setup controls vary; use the linked
 guide for current ChatGPT, Grok, Grok Bot, and Muse instructions. Grok and Grok
 Bot have separate connection settings.
 
+### Cursor desktop
+
+For local installation, place this repository as a real folder at
+`~/.cursor/plugins/local/atlas-by-sigmatools`, then reload the Cursor window.
+In **Customize → MCPs**, enable the Atlas plugin source and choose
+**Authenticate**. Complete Atlas consent in the browser while Cursor is waiting
+for the callback. If an earlier attempt expired, restart Authenticate.
+
+Use **Agent mode** and approve the requested Atlas tool calls. In the tested
+Cursor version, Ask mode discovered the tools but blocked their execution.
+If you already configured the same Atlas URL manually, Cursor groups the sources;
+select the intended source so you know which connection you are testing.
+
+Marketplace installation remains subject to review and listing availability.
+See [Cursor’s local-plugin instructions](https://cursor.com/docs/plugins#test-plugins-locally).
+
 ### Account requirements and price
 
 Atlas access requires an adult account with setup completed, current Atlas
@@ -110,7 +126,7 @@ every client, tool, or device:
 | Grok Bot | October 30, 2026: permitted reads; reviewed routine create/update/archive/restore; shared-session preparation and adjustment; stale-change refusal; client-visible denial after test disconnection. |
 | ChatGPT web | October 31, 2026: permitted reads; reviewed routine creation and archive; shared-session preparation and adjustment; cleanup and a reconnect prompt after test disconnection. The tested client required manual tool confirmations. |
 | Muse | November 1–2, 2026: permitted reads; reviewed routine creation; reviewed unlogged-session exercise swap; cleanup and an unauthorized response after test disconnection. |
-| Cursor | Manifest/configuration supplied. Installation and end-to-end acceptance in Cursor are not yet verified. |
+| Cursor desktop | November 4, 2026: local plugin installation and OAuth; all 12 tools discovered; permitted reads; routine creation reviewed and applied in Atlas; saved readback and reviewed archive cleanup; a fresh client call returned Unauthorized after test disconnection. The tested client required Agent mode and manual tool confirmations. Marketplace installation is not yet verified. |
 
 The recorded checks used dedicated synthetic test data. They do not establish
 marketplace acceptance, a cross-account penetration test, or universal mobile
