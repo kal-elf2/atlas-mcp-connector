@@ -48,7 +48,7 @@ See [Cursor’s local-plugin instructions](https://cursor.com/docs/plugins#test-
 ### Account requirements and price
 
 Atlas access requires an adult account with setup completed, current Atlas
-Terms accepted, and active Premium, an eligible trial, or VIP access. There is
+Terms accepted, and active Premium or an eligible trial. There is
 no separate fee for this connector package. Assistant subscriptions and
 availability are controlled by the assistant provider.
 
