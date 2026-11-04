@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "atlas-by-sigmatools",
+  "version": "1.0.0",
+  "description": "Connect your assistant to Atlas workout history and training plans. Review proposed routine, split, calendar and shared-workout changes in Atlas before they are applied.",
+  "author": {
+    "name": "SigmaTools, LLC",
+    "email": "hello@sigmatools.io",
+    "url": "https://atlas.sigmatools.io"
+  },
+  "homepage": "https://atlas.sigmatools.io/ai",
+  "repository": "https://github.com/kal-elf2/atlas-mcp-connector",
+  "license": "MIT",
+  "keywords": [
+    "atlas",
+    "fitness",
+    "workouts",
+    "training",
+    "mcp",
+    "oauth"
+  ]
+}
